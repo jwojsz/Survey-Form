@@ -1,0 +1,60 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+  <body>
+    <div>
+    <h1 id="title">This is Survey Holiday Page</h1>
+    <p id="description">Please share your thoughts about holiday season using survey below.<br>Thank you!</p>
+    <form id="survey-form">
+      <label for="name-label" id="name-label">
+        <p>Your Name</p>
+        <input type="text" placeholder="Enter your name" id="name" required>
+      </label>
+      <label for="email-label" id="email-label">
+        <p>Your Email Address</p>
+        <input type="email" placeholder="Enter your email address" id="email" required>
+      </label>
+      <label for="number-label" id="number-label">
+        <p>Your Age</p>
+        <input type="number" placeholder="Enter your age" id="number" min="1" max="120" required>
+      </label>
+      <label for="dropdown" id="dropdown-label">
+        <p>Please select which of them is your favourite holiday?</p>
+        <select name="holiday" id="dropdown">
+          <option value="Christmas">Christmas</option>
+          <option value="Easter">Easter</option>
+          <option value="Halloween">Halloween</option>
+          <option value="Independence Day">Independence Day</option>
+        </select>
+      </label>
+      <label for="celebration" name="celebration">
+        <p>Please choose what is your favourite way of celebrating holidays?</p>
+        <input id="presents" type="radio" name="celebration" value="presents">
+        <label for="presents">Getting presents</label><br>
+        <input id="sleeping" type="radio" name="celebration" value="sleeping">
+        <label for="sleeping">Sleeping</label><br>
+        <input id="friends" type="radio" name="celebration" value="friends">
+        <label for="friends">Meeting with friends</label><br>
+        <input id="eating" type="radio" name="celebration" value="eating">
+        <label for="eating">Eating</label>
+      </label>
+      <label for="food" name="food">
+        <p>Who is cooking the best holiday dishes? You can choose all applicable</p>
+        <input id="mommy" type="checkbox" name="mommy" value="mommy">
+        <label for="mommy">Mommy</label><br>
+        <input id="grandma" type="checkbox" name="grandma" value="grandma">
+        <label for="grandma">Grandma</label><br>
+        <input id="gf" type="checkbox" name="gf" value="gf">
+        <label for="gf">Girlfriend/Boyfriend</label><br>
+        <input id="bar" type="checkbox" name="bar" value="bar">
+        <label for="bar">Nearest (open) bar</label><br>
+        <input id="wc" type="checkbox" name="wc" value="wc">
+        <label for="wc">Who cares?</label>
+      </label>
+      <p>Do you want to add anything else? Share your comments below</p>
+      <textarea placeholder="You can type your comments here">
+      </textarea><br>
+      <button id="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
