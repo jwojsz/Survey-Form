@@ -8,6 +8,6 @@ The main features of the site:
 - checkboxes;
 - submit button.
 
-<a href="https://codepen.io/jwojsz/full/OJPZyya">
+<a href="https://codepen.io/jwojsz/full/OJPZyya" target="_blank">
 <img src="https://raw.githubusercontent.com/jwojsz/Survey-Form/master/Survey.JPG">
 </a>
