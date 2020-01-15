@@ -7,3 +7,5 @@ The main features of the site:
 - radio buttons;
 - checkboxes;
 - submit button.
+
+<img src="https://raw.githubusercontent.com/jwojsz/Survey-Form/master/Survey.JPG">
